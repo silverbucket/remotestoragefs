@@ -1,0 +1,31 @@
+{
+  "name": "remotestoragefs",
+  "version": "0.0.1",
+  "description": "remoteStorage.js mountable filesystem",
+  "main": "bin/mount.rsfs",
+  "author": "Nick Jennings <nick@silverbucket.net>",
+  "license": "GPL",
+  "bin": {
+    "mount.rsfs": "./bin/mount.rsfs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/silverbucket/remotestoragefs.git"
+  },
+  "homepage": "http://github.com/silverbucket/remotestoragefs",
+  "author": {
+    "name": "Nick Jennings",
+    "email": "nick@silverbucket.net"
+  },
+  "dependencies": {
+    "fuse4js": "*",
+    "requirejs": "*"
+  },
+  "keywords": [
+      "node",
+      "fuse",
+      "remoteStorage.js",
+      "rsfs",
+      "fuse4js"
+  ]
+}
